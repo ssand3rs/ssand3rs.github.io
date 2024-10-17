@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #aaa;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, nav, section, footer {
+    padding: 2%;
+    margin: 2%;
+    background-color: #fff;
+}
+
+.moon{
+    zoom: 55%;
+}
