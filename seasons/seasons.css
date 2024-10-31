@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #aaa;
+}
+
+body#spring {
+    background-color: green;
+}
+
+body#fall {
+    background-color: orangered;
+}
+
+body#summer {
+    background-color: deepskyblue;
+}
+
+body#index {
+    background-color: darkslategray;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, nav, section, footer {
+    padding: 2%;
+    margin: 2%;
+    background-color: #fff;
+}
+
+header, footer {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+#spring header, #spring footer {
+    background-color: lightpink;
+}
+
+#fall header, #fall footer {
+    background-color: darkred;
+}
+
+#summer header, #summer footer {
+    background-color: #FED11A;
+}
+
+#index header, #index footer {
+    background-color: black;
+}
+
+nav {
+    background-color: red;
+    text-align: center;
+    font-size: x-large;
+    padding: 13px;
+}
+
+#spring nav {
+    background-color: mediumseagreen;
+}
+
+#fall nav {
+    background-color: yellow;
+}
+
+#summer nav {
+    background-color: lawngreen;
+}
+
+#index nav {
+    background-color: gold;
+}
+
+nav ul {
+    margin:0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+#fall nav a {
+    color: darkred;
+}
+
+nav a:hover{
+    background-color: #900;
+}
+
+#fall nav a:hover {
+    color: yellow;
+}
+
+.trees {
+    float: right;
+    width: 43%;
+}
+
+.spring {
+    width: 35%;
+}
+
+.cherry {
+    width: 32%;
+}
+
+.winter {
+    width: 34%;
+}
+
+.cold {
+    width: 33%;
+}
+
+.beach {
+    zoom:154%;
+    float: right;
+}
+
+.summer {
+    width: 33%;
+}
+
+.seasons{
+    width:75%;
+    zoom:75%;
+}
