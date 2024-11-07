@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slidehow</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="slideshow.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+    <header><h1>My Slideshow</h1></header>
+    
+    <nav></nav>
+    
+    <section>
+    
+    <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/ezreal%20sign.jpg" data-thumb="images/ezreal%20sign.jpg" alt="" />
+                <a href="http://dev7studios.com"><img src="images/kayn%20sign.jpg" data-thumb="kayn%20sign.jpg" alt="" title="The boys" /></a>
+                <img src="images/aphelios%20sign.jpg" data-thumb="images/aphelios%20sign.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/yone%20sign.jpg" data-thumb="images/yone%20sign.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                Come back Heartsteel
+            </div>
+        </div>    
+        
+    </section>
+    
+    <footer></footer>
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>    
+
+</html>
