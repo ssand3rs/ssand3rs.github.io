@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, nav, section, footer {
+    padding: 2%;
+    margin: 0;
+    background-color: #fff;
+}
+
+header, footer {
+    background-color: #EC3632;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+footer {
+    background-color: #0EC8C7;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+footer a {
+    margin: 0 10px;
+    color: blue;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+nav {
+    background-color: #0EC8C7;
+    text-align: center;
+    font-size: x-large;
+    padding: 13px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 17px 20px;
+}
+
+nav a:hover {
+    background-color: #EC3632;
+}
+
+aside {
+    background-color: #EC3632;
+    width: 20%;
+    float: left;
+}
+
+aside li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+aside a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 10px 0;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+aside a:hover {
+    background-color: #0EC8C7;
+    color: white;
+}
+
+
+article {
+    background-color: white;
+    width: 74%;
+    float: right;
+    padding: 1% 3%;
+}
+
+article h1 {
+    font-size: 45px;
+}
+
+section {
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    background-color: #EC3632;
+}
+
+.buy {
+    float: right;
+    width: 40%;
+    margin: 0 0 2% 2%;
+}
+
+@media screen and (min-width:851px) and (max-width:1000px) {
+    nav {
+        background-color: #0EC8C7;
+        text-align: center;
+        font-size: x-large;
+        padding: 13px;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 10px 20px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    nav a:hover {
+        background-color: #EC3632;
+    }
+    aside a {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width:850px) {
+    nav, aside {
+        padding: 0;
+    }
+    
+    #wrap {
+        width: 100%;
+    }
+    
+    body {
+        background-color: white;
+    }
+    
+    article, aside {
+        float: none;
+        width: 93.5%;
+        margin: 0;
+    }
+    
+    aside {
+        width: 100%;
+    }
+    
+    nav a, aside a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    aside a {
+        text-decoration: none;
+        padding: 15px 0;
+        font-size: larger;
+    }
+    
+    nav ul, nav li, aside ul, aside li {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .buy {
+        width: 99%;
+        float: none;
+        margin: 0;
+    }
+}
